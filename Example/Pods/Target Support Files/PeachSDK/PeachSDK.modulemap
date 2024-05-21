@@ -1,0 +1,6 @@
+framework module PeachSDK {
+  umbrella header "PeachSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
