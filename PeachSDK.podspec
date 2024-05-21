@@ -11,18 +11,17 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A short description of PeachSDK.'
   
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Peaches demo'
 
-  s.homepage         = 'https://github.com/144892271/PeachSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/vlad-buhaescu-qoob/peach'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '144892271' => 'vlad.buhaescu@qoobiss.com' }
-  s.source           = { :git => 'https://github.com/144892271/PeachSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/vlad-buhaescu-qoob/peach.git', :tag => s.version.to_s }
+  
+  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'PeachSDK/Classes/**/*'
   
