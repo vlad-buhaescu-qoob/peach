@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		100CC4DB37550B269D1822DA /* Pods_PeachSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeachSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14CA43C82E10B776F707C093 /* PeachSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PeachSDK.podspec; path = ../PeachSDK.podspec; sourceTree = "<group>"; };
+		14CA43C82E10B776F707C093 /* PeachSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PeachSDK.podspec; path = ../PeachSDK.podspec; sourceTree = "<group>"; };
 		37C792E2AAC37618CA0EE2AD /* Pods_PeachSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeachSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A44DF0B5679D73BB35B44C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5A44DF0B5679D73BB35B44C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PeachSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeachSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8344731CF71CCEC9DB26A447 /* Pods-PeachSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeachSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-PeachSDK_Example/Pods-PeachSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9AD66107EECFEF2F585C8218 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9AD66107EECFEF2F585C8218 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ACF12C5A28D1209B2BCC494B /* Pods-PeachSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeachSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PeachSDK_Tests/Pods-PeachSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E85B29C0C679310593F02918 /* Pods-PeachSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeachSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-PeachSDK_Tests/Pods-PeachSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EED29AE2A3705C8EBB7B8B88 /* Pods-PeachSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeachSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-PeachSDK_Example/Pods-PeachSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				ACF12C5A28D1209B2BCC494B /* Pods-PeachSDK_Tests.debug.xcconfig */,
 				E85B29C0C679310593F02918 /* Pods-PeachSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 44LJ9B5VT9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 44LJ9B5VT9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,7 +499,9 @@
 			baseConfigurationReference = 8344731CF71CCEC9DB26A447 /* Pods-PeachSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44LJ9B5VT9;
 				INFOPLIST_FILE = PeachSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -512,7 +516,9 @@
 			baseConfigurationReference = EED29AE2A3705C8EBB7B8B88 /* Pods-PeachSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44LJ9B5VT9;
 				INFOPLIST_FILE = PeachSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -526,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ACF12C5A28D1209B2BCC494B /* Pods-PeachSDK_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 44LJ9B5VT9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -535,6 +542,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,11 +556,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E85B29C0C679310593F02918 /* Pods-PeachSDK_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 44LJ9B5VT9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

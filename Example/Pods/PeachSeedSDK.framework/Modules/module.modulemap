@@ -1,0 +1,6 @@
+framework module PeachSeedSDK {
+  umbrella header "PeachSeedSDK.h"
+  export *
+
+  module * { export * }
+}
